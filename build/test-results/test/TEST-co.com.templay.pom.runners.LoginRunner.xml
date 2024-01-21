@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.templay.pom.runners.LoginRunner" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-21T06:50:38" hostname="NILOSEGUNDO" time="25.055">
+  <properties/>
+  <testcase name="Login failed" classname="co.com.templay.pom.runners.LoginRunner" time="13.01"/>
+  <testcase name="Login exitoso" classname="co.com.templay.pom.runners.LoginRunner" time="12.045"/>
+  <system-out><![CDATA[2024-01-21 01:50:38,533 INFO   r.core.plugin.SerenityReporter: Running feature from file:///C:/Users/niloa/OneDrive/Escritorio/Automation/SerenityPOM/Template/TemplayPOM/src/test/resources/features/inicioSesion.feature
+2024-01-21 01:50:38,652 INFO   logging.ConsoleLoggingListener: 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-01-21 01:50:38,655 INFO   logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+2024-01-21 01:50:38,668 INFO   r.core.plugin.SerenityReporter: Running feature from file:///C:/Users/niloa/OneDrive/Escritorio/Automation/SerenityPOM/Template/TemplayPOM/src/test/resources/features/inicioSesion.feature
+2024-01-21 01:50:38,671 INFO   logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+
+@HU @Test1
+Esquema del escenario: Login failed                          ?[90m# src/test/resources/features/inicioSesion.feature:22?[0m
+2024-01-21 01:50:38,722 INFO   r.core.plugin.SerenityReporter: Running feature from file:///C:/Users/niloa/OneDrive/Escritorio/Automation/SerenityPOM/Template/TemplayPOM/src/test/resources/features/inicioSesion.feature
+2024-01-21 01:50:38,736 INFO   logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+<Escenario>(inicio-de-sesion;<escenario>)
+--------------------------------------------------------------------------------
+2024-01-21 01:50:38,906 INFO   ers.DownloadableDriverProvider: Using automatically driver download
+2024-01-21 01:50:39,738 INFO   onigarcia.wdm.WebDriverManager: Using geckodriver 0.34.0 (resolved driver for Firefox 121)
+2024-01-21 01:50:39,747 INFO   onigarcia.wdm.WebDriverManager: Exporting webdriver.gecko.driver as C:\Users\niloa\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-01-21 01:50:45,567 INFO   m.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+  ?[32mDado ?[0m?[32mque el usuario navega a la pagina de inicio de sesion?[0m ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.queElUsuarioNavegaALaPaginaDeInicioDeSesion()?[0m
+2024-01-21 01:50:50,863 INFO   m.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-21 01:50:50,892 INFO   m.templay.pom.steps.LoginSteps: Escribir usuario: adm1n
+2024-01-21 01:50:50,955 INFO   m.templay.pom.steps.LoginSteps: Escribir clave: seren1ty
+  ?[32mCuando ?[0m?[32mingresa sus credenciales?[0m                            ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.ingresaSusCredenciales(io.cucumber.datatable.DataTable)?[0m
+    | adm1n | seren1ty |
+  ?[32mEntonces ?[0m?[32mdeberia ver la pagina principal?[0m                   ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.deberiaVerLaPaginaPrincipal()?[0m
+2024-01-21 01:50:51,680 INFO   logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
+
+@HU @Test1
+Esquema del escenario: Login exitoso                         ?[90m# src/test/resources/features/inicioSesion.feature:23?[0m
+2024-01-21 01:50:51,688 INFO   r.core.plugin.SerenityReporter: Running feature from file:///C:/Users/niloa/OneDrive/Escritorio/Automation/SerenityPOM/Template/TemplayPOM/src/test/resources/features/inicioSesion.feature
+2024-01-21 01:50:57,865 INFO   m.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+  ?[32mDado ?[0m?[32mque el usuario navega a la pagina de inicio de sesion?[0m ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.queElUsuarioNavegaALaPaginaDeInicioDeSesion()?[0m
+2024-01-21 01:51:02,978 INFO   m.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-21 01:51:03,006 INFO   m.templay.pom.steps.LoginSteps: Escribir usuario: admin
+2024-01-21 01:51:03,067 INFO   m.templay.pom.steps.LoginSteps: Escribir clave: serenity
+  ?[32mCuando ?[0m?[32mingresa sus credenciales?[0m                            ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.ingresaSusCredenciales(io.cucumber.datatable.DataTable)?[0m
+    | admin | serenity |
+  ?[32mEntonces ?[0m?[32mdeberia ver la pagina principal?[0m                   ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.deberiaVerLaPaginaPrincipal()?[0m
+2024-01-21 01:51:03,728 INFO   logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>
